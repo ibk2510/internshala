@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap CDN -->
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/226ea5d118.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card shadow col-sm-12">
+        <div class="card-body">
+          <div>
+            <img src="./images/images.png" alt="logo" />
+            <h1
+              class="float-right font-weight-bold"
+              style="padding-top: 60px; padding-right: 20px"
+            >
+              INVOICE
+            </h1>
+          </div>
+          <div class="float-left pl">
+            <h4 class="font-weight-bold">To: Jack Due</h4>
+            <p class="text-justify">
+              Lane 07, K.S Road <br />
+              Mumbai-400001 <br />
+              <i class="fa fa-phone-alt"></i> +123 456 7890
+            </p>
+          </div>
+          <div class="float-right">
+            <h4 class="font-weight-bold">Invoice Details</h4>
+            <p>
+              Invoice Date: 01/01/2020 <br />Due Date: 10/01/2020 <br />Invoice
+              No: #549512
+            </p>
+          </div>
+          <div>
+            <table class="table table-hover table-responsive-sm">
+              <thead>
+                <tr>
+                  <th scope="col">Item Description</th>
+                  <th scope="col">Unit Price</th>
+                  <th scope="col">Qty</th>
+                  <th scope="col">Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    <h5>Product 1</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur <br />
+                      adipiscing elit. Etiam congue arcu dui, luctus
+                    </p>
+                  </th>
+                  <td>$550.00</td>
+                  <td>04</td>
+                  <td>$2200.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <h5>Product 2</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur <br />
+                      adipiscing elit. Etiam congue arcu dui, luctus
+                    </p>
+                  </th>
+                  <td>$750.00</td>
+                  <td>02</td>
+                  <td>$1500.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <h5>Product 3</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur <br />
+                      adipiscing elit. Etiam congue arcu dui, luctus
+                    </p>
+                  </th>
+                  <td>$400.00</td>
+                  <td>01</td>
+                  <td>$400.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    <h5>Product 4</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur <br />
+                      adipiscing elit. Etiam congue arcu dui, luctus
+                    </p>
+                  </th>
+                  <td>$275.00</td>
+                  <td>02</td>
+                  <td>$550.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="row">
+            <div class="left col l">
+              <h3>Payment Method</h3>
+              <img
+                src="./images/pp.png"
+                style="height: 25%; width: 25%"
+                alt=""
+              />
+              <p>
+                username@paypal.com <br />
+                We Accept Visa, Master Card, Payoneer.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-5 ml-auto">
+              <table class="table table-clear">
+                <tbody>
+                  <tr>
+                    <td class="left">
+                      <strong>Subtotal</strong>
+                    </td>
+                    <td class="right">$4650.00</td>
+                  </tr>
+                  <tr>
+                    <td class="left">
+                      <strong>VAT (10%)</strong>
+                    </td>
+                    <td class="right">$465.00</td>
+                  </tr>
+                  <tr>
+                    <td class="left textcolor">
+                      <strong>GRAND TOTAL</strong>
+                    </td>
+                    <td class="right textcolor">
+                      <strong>$5115.00</strong>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div style="display: inline-block; width: 100%">
+            <div style="float: left">
+              <h3>Terms and Conditions:</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+                Etiam congue arcu dui, luctus ornare nibh.
+              </p>
+            </div>
+            <!-- <div class=""> -->
+            <div style="float: right">
+              <img
+                src="./images/images.jpeg"
+                style="
+                  float: right;
+                  height: 35%;
+                  width: 35%;
+                  margin-right: 30px;
+                "
+                alt=""
+              />
+              <br>
+              <br>
+              <br>
+              <h6 class="float-right" style="margin-right: 30px;">Abhijeet Kakde</h6>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="row card-body">
+            <div class="col">
+              <div class="row">
+                <i
+                  class="fa fa-phone-square-alt fa-3x"
+                  style="color: green; padding-right: 10px"
+                ></i>
+                <div class="col">
+                  <div class="row"><span> +123 456 7890</span></div>
+                  <div class="row">+777 500 5445</div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <i
+                  class="fa fa-envelope fa-3x"
+                  style="color: green; padding-right: 10px"
+                ></i>
+                <div class="col">
+                  <div class="row">example@gmail.com</div>
+                  <div class="row">googleexample@gmail.com</div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <i
+                  class="fa fa-map-marker-alt fa-3x"
+                  style="color: green; padding-right: 10px"
+                ></i>
+                <div class="col">
+                  <div class="row">Lane 07, K.S Road</div>
+                  <div class="row">Mumbai-400001</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
